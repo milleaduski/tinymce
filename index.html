@@ -1,0 +1,30 @@
+
+ <!DOCTYPE html>
+<html>
+<head>
+<title>How to use TinyMCe in our project</title>
+  <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+  <script>
+  tinymce.init({ 
+      selector:'#tinymce',
+      width: 500, // the value must be (int)
+      height:200, // the value must be (int)
+      menubar:false, // the value is string and then the name of menubar category
+      //inline: true
+  });
+</script>
+<style type="text/css">
+	h1{
+		color: red;
+	}
+</style>
+</head>
+<body>
+   <h1>Use Tinymce in your website</h1>
+   <!-- <textarea id="tinymce">Welcome to my tutorials</textarea> -->
+   <div id="tinymce">You can type here ...</div>
+</body>
+</html>
+
+
+
